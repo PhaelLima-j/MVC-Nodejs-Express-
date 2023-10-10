@@ -3,7 +3,7 @@ const path = require('path');
 
 const routerPrincipal = require('./routes/principal');
 const routerPedidos = require('./routes/pedidos');
-const routerPerfil = require('./routes/perfil');
+const routerPerfil = require('./routes/perfils');
 const { connect } = require('./models');
 
 const app = express();

@@ -1,0 +1,7 @@
+<h1>O dono da pizzaria e <%= nomeDoUsuario %>!!</h1>
+
+<ul>
+    <% pedidos.map((pedido) => { %>
+        <li>Pedido do <%= pedido.cliente.nome %> <%= pedido.cliente.sobrenome %></li>
+    <% }) %>
+</ul>
